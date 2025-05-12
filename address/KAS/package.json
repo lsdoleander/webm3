@@ -1,0 +1,19 @@
+{
+  "name": "@webm3/address-KAS",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "module": "./@dist.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@kaspa/grpc-node": "^1.0.8",
+    "@kaspa/wallet": "^1.4.26",
+    "@rollup/plugin-replace": "^6.0.2",
+    "bitcore-lib": "^8.20.1",
+    "rollup": "^4.39.0"
+  },
+  "dependencies": {
+    "js-sha256": "../../3rd/js-sha256"
+  }
+}

@@ -1,0 +1,21 @@
+export default [
+  "wss://polygon-bor-rpc.publicnode.com",
+  "wss://polygon.gateway.tenderly.co",
+  "wss://polygon.drpc.org",
+  "https://polygon.meowrpc.com",
+  "https://polygon.lava.build",
+  "https://endpoints.omniatech.io/v1/matic/mainnet/public",
+  "https://1rpc.io/matic",
+  "https://api.zan.top/polygon-mainnet",
+  "https://polygon-pokt.nodies.app",
+  "https://polygon-bor-rpc.publicnode.com",
+  "https://polygon.api.onfinality.io/public",
+  "https://rpc-mainnet.matic.quiknode.pro",
+  "https://rpc.ankr.com/polygon",
+  "https://polygon-rpc.com",
+  "https://polygon.rpc.subquery.network/public",
+  "https://polygon-mainnet.public.blastapi.io",
+  "https://polygon.gateway.tenderly.co",
+  "https://gateway.tenderly.co/public/polygon",
+  "https://polygon.drpc.org"
+]

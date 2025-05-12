@@ -1,0 +1,18 @@
+{
+  "name": "bip39",
+  "version": "3.1.0",
+  "description": "Bitcoin BIP39: Mnemonic code for generating deterministic keys",
+  "type": "module",
+  "exports": "./index.js",
+  "author": "Wei Lu",
+  "contributors": [
+    {
+      "name": "Daniel Cousens",
+      "email": "email@dcousens.com",
+      "url": "http://dcousens.com"
+    }
+  ],
+  "dependencies": {
+    "@noble/hashes": "^1.2.0"
+  }
+}

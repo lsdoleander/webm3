@@ -1,0 +1,19 @@
+export default [
+  "wss://arbitrum.callstaticrpc.com",
+  "wss://arbitrum-one-rpc.publicnode.com",
+  "https://arbitrum.llamarpc.com",
+  "https://endpoints.omniatech.io/v1/arbitrum/one/public",
+  "https://1rpc.io/arb",
+  "https://arb1.lava.build",
+  "https://arbitrum.drpc.org",
+  "https://arbitrum-one-rpc.publicnode.com",
+  "https://arb-pokt.nodies.app",
+  "https://arbitrum.meowrpc.com",
+  "https://api.zan.top/arb-one",
+  "https://rpc.ankr.com/arbitrum",
+  "https://arbitrum.gateway.tenderly.co",
+  "https://arbitrum.blockpi.network/v1/rpc/public",
+  "https://arb1.arbitrum.io/rpc",
+  "https://arbitrum.rpc.subquery.network/public",
+  "https://arbitrum-one.public.blastapi.io"
+]

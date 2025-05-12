@@ -1,0 +1,21 @@
+export default {
+   "Arbitrum_One": { "id": 42161, "symbol": "ETH"},
+   "Avalanche_C-Chain": { "id": 43114, "symbol": "AVAX"},
+   "Base": { "id": 8453, "symbol": "ETH"},
+   "Bitlayer_Mainnet": { "id": 200901, "symbol": "BTC"},
+   "Blast": { "id": 81457, "symbol": "ETH"},
+   "BNB_Smart_Chain_Mainnet": { "id": 56, "symbol": "BNB"},
+   "Core_Blockchain_Mainnet": { "id": 1116, "symbol": "CORE"},
+   "Cronos_Mainnet": { "id": 25, "symbol": "CRO"},
+   "Ethereum_Classic": { "id": 61, "symbol": "ETC"},
+   "Ethereum_Mainnet": { "id": 1, "symbol": "ETH"},
+   "Fantom_Opera": { "id": 250, "symbol": "FTM"},
+   "Gnosis": { "id": 100, "symbol": "XDAI"},
+   "Linea": { "id": 59144, "symbol": "ETH"},
+   "Mantle": { "id": 5000, "symbol": "MNT"},
+   "OP_Mainnet": { "id": 10, "symbol": "ETH"},
+   "Polygon_Mainnet": { "id": 137, "symbol": "POL"},
+   "PulseChain": { "id": 369, "symbol": "PLS"},
+   "Sonic_Mainnet": { "id": 146, "symbol": "S"},
+   "Zircuit_Mainnet": { "id": 48900, "symbol": "ETH"}
+}

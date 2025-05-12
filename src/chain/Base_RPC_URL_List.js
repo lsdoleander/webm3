@@ -1,0 +1,22 @@
+export default [
+  "wss://base.callstaticrpc.com",
+  "wss://base-rpc.publicnode.com",
+  "wss://base.gateway.tenderly.co",
+  "https://endpoints.omniatech.io/v1/base/mainnet/public",
+  "https://base.drpc.org",
+  "https://api.zan.top/base-mainnet",
+  "https://developer-access-mainnet.base.org",
+  "https://base.blockpi.network/v1/rpc/public",
+  "https://base.meowrpc.com",
+  "https://base-pokt.nodies.app",
+  "https://0xrpc.io/base",
+  "https://base.rpc.subquery.network/public",
+  "https://base.lava.build",
+  "https://base-rpc.publicnode.com",
+  "https://base-mainnet.public.blastapi.io",
+  "https://mainnet.base.org",
+  "https://base.api.onfinality.io/public",
+  "https://1rpc.io/base",
+  "https://gateway.tenderly.co/public/base",
+  "https://base.gateway.tenderly.co"
+]

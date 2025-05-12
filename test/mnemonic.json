@@ -1,0 +1,29 @@
+[
+	{ 
+		"words": 12,
+		"entropy": "00000000000000000000000000000000",
+		"mnemonic": "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about",
+		"addresses": {
+			"BTC": { 
+				"legacy": "1LqBGSKuX5yYUonjxT5qGfpUsXKYYWeabA",
+				"segwit": "37VucYSaXLCAsxYyAPfbSi9eh4iEcbShgf",
+				"bech32": ""
+			},
+			"DASH": "XoJA8qE3N2Y3jMLEtZ3vcN42qseZ8LvFf5",
+			"DOGE": "DBus3bamQjgJULBJtYXpEzDWQRwF5iwxgC",			
+		}
+	},
+	{
+		"words": 15, 
+		"entropy": "0000000000000000000000000000000000000000",
+		"mnemonic": "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon address",
+		"addresses": {
+			"ADA": "Ae2tdPwUPEZLMkanhbd9g8dUsVwypLgdSaJmhbKVT4Vzhc5k4mRTeujUN2h"
+		}
+	},
+	{ 
+		"words": 24,
+		"entropy": "0000000000000000000000000000000000000000000000000000000000000000",
+		"mnemonic": "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon art"
+	}
+]
