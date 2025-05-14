@@ -3,6 +3,7 @@ import terser from '@rollup/plugin-terser';
 import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 import polyfill from 'rollup-plugin-polyfill-node';
+import replace from '@rollup/plugin-replace';
 import json from '@rollup/plugin-json';
 
 export default {
@@ -20,7 +21,10 @@ export default {
       browser: false,
       main: true
     }),
-//    polyfill(),
+    replace({
+      __dirname: "import.meta.dirname",
+      __filename: "import.meta.filename"
+    }),
     json()
     /*,
     terser({
