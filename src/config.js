@@ -7,13 +7,13 @@
 			
 			let index = 0;
 
-			function getPrices(){
+			(function _call_service(){
 				function err(){
 					index++
 					if (index === hosts.length) {
 						resolve();
 					} else {
-						getPrices();
+						_call_service();
 					}
 				}
 
@@ -31,6 +31,6 @@
 				} catch (ex) {
 					err();
 				}
-			}
+			})()
 		})
 	}
