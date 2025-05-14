@@ -66,7 +66,7 @@
 			},
 
 			prices() {
-				return prices(hosts, "prices")
+				return prices()
 			}
 		}
 	}
