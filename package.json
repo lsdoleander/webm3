@@ -1,0 +1,47 @@
+{
+  "name": "webm3",
+  "version": "1.1.0",
+  "type": "module",
+  "browser": "./dist/browser/worker.js",
+  "exports": {
+    ".": "./src/wallet.js",
+    "./worker.mjs": "./src/index.js"
+  },
+  "license": "MIT",
+  "bin": {
+    "webm3": "node dist/esm/worker.js"
+  },
+  "scripts": {
+    "build": "yarn clean && yarn build-browser && yarn build-esm",
+    "build-esm": "yarn conf-esm && yarn rollup-esm ",
+    "conf-esm": "mkdir -p dist/esm",
+    "rollup-esm": "rollup -c rollup.esm.mjs && rollup -c rollup.worker.mjs ",
+    "rollup-browser": "rollup -c rollup.config.mjs",
+    "build-browser": "yarn conf-browser && yarn rollup-browser && yarn gen-browser",
+    "conf-browser": "mkdir -p gen/browser && mkdir -p dist/browser && cp -r src/* gen/browser && cp -r env/browser/* gen/browser",
+    "gen-browser": "node tools/gen.js && cp env/browser/index.html dist/browser",
+    "express": "node tools/express.js",
+    "clean": "rm -rf dist && rm -rf gen"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-replace": "^6.0.2",
+    "@rollup/plugin-terser": "^0.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-static": "^1.2.6",
+    "rollup": "^4.36.0",
+    "rollup-plugin-polyfill-node": "^0.13.0",
+    "utf8": "^3.0.0"
+  },
+  "dependencies": {
+    "async": "^3.2.6",
+    "bignumber.js": "^9.1.2",
+    "bip39": "./3rd/bip39/",
+    "coinnetworklist": "./3rd/coinnetworklist",
+    "hdaddressgenerator": "./3rd/hdAddressGenerator/",
+    "webm3-rpc": "https://github.com/lsdoleander/webm3-rpc.git"
+  }
+}

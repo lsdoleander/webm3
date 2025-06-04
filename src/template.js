@@ -1,0 +1,1 @@
+{ const WORKERS=3; const worker = [WORKERS]; for (let i = 0; i < WORKERS; i++) worker[i] = new Worker("data:text/javascript;base64,${webworker}") } 

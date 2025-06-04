@@ -1,0 +1,21 @@
+export default [
+  "https://rpc.fantom.network",
+  "https://fantom-json-rpc.stakely.io",
+  "https://rpc.ftm.tools",
+  "https://rpc3.fantom.network",
+  "https://rpc2.fantom.network",
+  "https://rpc.owlracle.info/ftm/70d38ce1826c4a60bb2a8e05a6c8b20f",
+  "https://fantom.drpc.org",
+  "https://api.zan.top/ftm-mainnet",
+  "wss://fantom.callstaticrpc.com",
+  "https://fantom-mainnet.public.blastapi.io",
+  "https://endpoints.omniatech.io/v1/fantom/mainnet/public",
+  "https://fantom.api.onfinality.io/public",
+  "https://fantom-rpc.publicnode.com",
+  "https://rpcapi.fantom.network",
+  "wss://fantom-rpc.publicnode.com",
+  "https://1rpc.io/ftm",
+  "https://fantom-mainnet.gateway.tatum.io",
+  "https://fantom-pokt.nodies.app",
+  "wss://fantom.drpc.org"
+]
